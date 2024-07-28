@@ -41,4 +41,4 @@ COPY --chown=appuser:appuser . .
 ENV PATH="/opt/venv/bin:$PATH"
 
 # Command to run the application
-CMD ["python", "app.py"]
+CMD ["python", "app.ipynb"]
